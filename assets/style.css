@@ -1,0 +1,347 @@
+@font-face {
+    font-family: PayPalSansBig-Regular;
+    src: url(/assets/font/PayPalSansBig-Regular.woff2);
+}
+@font-face {
+    font-family: Helvetica Neue;
+    src: url(/assets/font/helvetica-neue-lt-font/Helvetica\ Neue\ LT\ W05\ 45\ Light.woff);
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: PayPalSansBig-Regular,Helvetica Neue,Arial,sans-serif;
+    font-variant: normal;
+    font-size: 112.5%;
+    -webkit-font-smoothing: antialiased;
+    /* -webkit-backface-visibility: hidden; */
+    -moz-text-size-adjust: 112.5%;
+    -ms-text-size-adjust: 112.5%;
+    -webkit-text-size-adjust: 112.5%;
+}
+.mediaquery{
+    display: none;
+    width: 100%;
+
+}
+#media{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.bi-list{
+    font-size: 30px;
+    color: #d1f1ff;
+}
+#media .bi-bell-fill{
+    font-size: 20px;
+}
+
+.general{
+    margin-bottom: 100px;
+}
+.nav-bar{
+    height: 100px;
+    width: 100%;
+    background-color: #142c8e;
+    display: flex;
+
+}
+.nav-bar img{
+    width: 30px;
+    height: 30px;
+    margin-top: 2.5%;
+
+}
+.nav-container{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container ul {
+    width: 110%;
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-container ul li a{
+    color: #d1f1ff;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+.nav-container ul li{
+    border: 1px solid transparent ;
+    padding: 5px 25px;
+
+}
+.nav-container ul .li{
+    padding: 10px 20px;
+}
+.nav-container ul li:hover{
+    border: 1px solid rgba(209,241,255,.2);
+    border-radius: 2rem;
+    
+}
+.nt1{
+    line-height: 0;
+}
+#nav-txt1 a{
+    line-height: 0.2;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    color: #d1f1ff;
+    padding: 10px 30px;
+}
+#nav-txt1 a:hover, #nav-txt2 a:hover{
+    border: 1px solid;
+    border-radius: 20px;
+}
+#nav-txt2{
+    margin-top:0%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#icon{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    align-items: center;
+}
+#icon a{
+    color: #d1f1ff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.bi-bell-fill, .bi-gear-fill{
+    font-size: 18px;
+    color: #d1f1ff;
+}
+
+.subsect{
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-left: -30px;
+}
+
+#subsect1 p, #subsect2 p{
+    font-size: 14px;
+    text-align: center;
+
+}
+.subsect .sb{
+    font-size: 15px;
+    text-align: center;
+    color: #1072eb;
+    font-weight: 400;
+    transform: translateY(5px);
+}
+/* #subsect1{
+    border: 1px solid;
+    
+}
+#subsect2{
+    border: 1px solid;
+} */
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #f7f5f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.circle img{
+    width: 30px;
+    height: 30px;
+}
+
+#paypal{
+    width: 40%;
+    border: 1px solid #142c8e;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#paypal-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+#txt-1{
+    font-size: 30px;
+}
+#txt-2{
+    font-size: 14px;
+    text-align: center;
+    margin-top: -5px;
+}
+.square{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.square img{
+    width: 25px;
+    height: 25px;
+    padding: 5px 15px;
+    background: linear-gradient(135deg, #fff 0, #f3f3f3 101%);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+
+/* #0070ba */
+.section2{
+    width: 100%;
+    margin-top: 20px;
+}
+#s2{
+    width: 60%;
+    margin-left: 8%;
+}
+#s2-1{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#s2-1 p{
+    line-height:0;
+}
+#s2-1 #sum{
+    font-size: 50px;
+}
+#s2-img img{
+    width: 50px;
+    height: 50px;
+    padding: 5px 25px;
+    background: linear-gradient(135deg, #fff 0, #f3f3f3 101%);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+#s2-img, #s2-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#s2-txt p{        width: 100%;
+    line-height: 0;
+    margin-bottom: 30px ;
+}
+#other{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+#s3-2{
+    margin: auto;
+}
+#other a, #s3-1 a, #s3-2 a{
+    color: #1072eb;
+    background: transparent;
+    text-decoration: none;
+    border: none;
+}
+#other a:hover, #s3-1 a:hover, #s3-2 a:hover{
+    color: #1040c1;    
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+}
+#s3-1{
+    width: 70%;
+    text-align: center;
+}
+#s3-2{
+    width: 70%;
+    text-align: center;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#s3-2 p{
+    line-height: 1.5;
+}
+#s3-2a{
+    width: 70%;
+}
+#s3-2b{
+    width: 69%;
+    margin-top: -15px;
+}
+#s3-2 a{
+    margin-top: -10px;
+}
+.footer{
+    width: 100%;
+    margin-top: 100px;
+}
+#footer-1{
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+    margin:10px 1% ;
+}
+#footer-1 a{
+    font-family: 'PayPal Sans Big',sans-serif;
+    font-size: .9375rem;
+    color: #6c7378;
+    text-decoration: none;
+}
+#footer-1 a:hover, #footer-2 a:hover{
+    text-decoration: underline;
+    color: #2c2e2f;
+}
+#hr{
+    border-top: 1px dotted #9da3a6;
+    width:90%;
+    margin-inline: 1%;
+}
+#footer-2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 46.5%  ;
+}
+#footer-2 a{
+    font-size: .6875rem;
+    padding: 1.1rem 0.6rem ;
+    color: #6c7378;
+    text-decoration: none;
+
+}
+#footer-2 p{
+    color: #6c7378;
+    font-family: 'PayPal Sans Big',sans-serif;
+    letter-spacing: .05rem;
+    padding-left: 0.65rem;
+    font-size: .6875rem;
+    margin-top: 1rem;
+}
+#footer-2 p::after{
+    content: "|";
+    display: inline-block;
+    padding: 0 1.5rem;
+    vertical-align: -0.1rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1em;
+}

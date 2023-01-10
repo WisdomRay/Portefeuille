@@ -1,0 +1,275 @@
+@media screen and (max-width:992px) {
+    .nav-container{
+        width: 100%;
+    }
+    .nav-bar img{
+        margin: 30px 10px;
+    }
+    .nav-container ul{
+        width: 75%;
+        margin-left: -50px !important;
+    }
+    .nav-container ul li a{
+        font-size: 16px;
+    }
+    #icon{
+        width: 20%;
+        transform: translateX(-10px);
+    }
+    .txt{
+        margin-left: 10%;
+    }
+    .subsect{
+        width: 87%;
+        justify-content: space-evenly;
+    }
+    #paypal{
+        width: 60%;
+    }
+    #other{
+        width: 85%;
+    }
+    #s3-2a{
+        width: 100%;
+    }
+    #s3-2b{
+        width: 100%;
+    }
+    #footer-1{
+        width: 25%;
+    }
+    #footer-1 a{
+        font-size: 13px;
+    }
+    #footer-2{
+        width: 60%;
+        margin-left: 34%;
+    }
+    #footer-2 a{
+        font-size:.6rem;
+    }
+    #footer-2 p{
+        font-size: .6rem;
+    }
+
+}
+@media screen and (max-width:952px) {
+    .nav-container ul li a{
+        font-size: 13px;
+    }
+    #subsect1 p, #subsect2 p{
+        font-size: 13px;
+    }
+    #hr{
+        width: 92%;
+    }
+    .nav-container ul {
+        width: 80%;
+    }
+    #icon{
+        width: 20% !important;
+    }
+    #icon a{
+        font-size: 13px;
+    }
+    .bi-bell-fill, .bi-gear-fill{
+        font-size: 15px;
+    }
+    #other{
+        width: 90%;
+    }
+    #other a{
+        font-size: 15px;
+    }
+    #footer-1 a{
+        font-size: 12px;
+    }
+
+}
+@media screen and (max-width:917px) {
+    #footer-2{
+        width: 70%;
+        margin-left: 40%;
+    }
+    #subsect1 p, #subsect2 p{
+        font-size: 12px;
+    }
+    #footer-2 p::after{
+        padding: 0 0.05rem;
+        vertical-align: -0.1rem;
+        margin-inline: 10px;
+    }
+    #footer-2 a{
+        margin-top: 2px;
+    }   
+    #s3-2{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width:891px) {
+    #footer-2{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width:830px) {
+    #footer-2{
+        margin-left: 35%;
+    }
+    .txt{
+        margin-left: 1% !important;
+    }
+}
+@media screen and (max-width:769px) {
+    #footer-2{
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width:768px) {
+    .nav-container{
+        display: none;
+    }
+    .mediaquery{
+        display: block;
+    }
+    #s2{
+        width: 80%;
+        margin-left: 9%;
+    }
+}
+@media screen and (max-width:749px) {
+    .subsect{
+        width:90%;
+    }
+    #footer-2{
+        margin-left: 27%;
+    } 
+  
+}
+@media screen and (max-width:716px) {
+    .subsect{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    #subsect1{
+        margin-bottom: 20px;
+    }
+    #subsect1 p, #subsect2 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    #other{
+        width: 100%;
+    }
+    #footer-2{
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:700px) {
+    #paypal{
+        width: 70%;
+    }
+        #footer-2{
+        width: 100%;
+        margin-left: 23%;
+    }
+
+}
+@media screen and (max-width:668px) {
+
+    #footer-2{
+        margin-left: 20%;
+    }
+    #footer-2 a{
+        margin-top: 2px;
+    }
+}
+@media screen and (max-width:640px) {
+    #other{
+        flex-direction: column;
+    }
+    #other a{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #footer-2 p::after{
+        display: none;
+    }
+    #footer-2{
+        flex-direction: column;
+        margin-left: -27% ;
+        float: left;
+    }
+    #footer-2 p{
+        font-size: 14px;
+    }
+    #footer-2 a{
+        font-size: 12px;
+        padding: 0.5rem 0.6rem ;
+
+    }
+    #footer-1{
+        width: 25%;
+    }
+
+}
+@media screen and (max-width:615px) {
+    #s2{
+        width: 100%;
+        margin-left: 0;
+    }
+    #paypal{
+        width: 50%;
+    }
+    #footer-2{
+        margin-left: -25%;
+    }
+    #footer-1{
+        width: 30%;
+    }
+}
+@media screen and (max-width:577px) {
+
+    #footer-2{
+        margin-left: -21%;
+    }
+    #footer-1{
+        width: 35%;
+    }
+}
+@media screen and (max-width:499px) {
+    #paypal{
+        width: 60%;
+    }
+    #footer-2{
+        margin-left: -15%;
+    }
+    #footer-1{
+        width: 40%;
+    }
+}
+@media screen and (max-width:420px) {
+    #paypal{
+        width: 70%;
+    }
+    #footer-2{
+        margin-left: -10%;
+    }
+    #footer-1{
+        width: 45%;
+    }
+}
+@media screen and (max-width:360px) {
+    #paypal{
+        width: 80%;
+    }
+    #footer-2{
+        margin-left: -5%;
+    }
+    #footer-1{
+        width: 50%;
+    }
+    #footer-1 a{
+        font-size: .65rem;
+    }
+}
