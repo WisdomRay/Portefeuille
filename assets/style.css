@@ -137,7 +137,6 @@ body{
 #subsect1 p, #subsect2 p{
     font-size: 14px;
     text-align: center;
-
 }
 .subsect .sb{
     font-size: 15px;
@@ -146,13 +145,6 @@ body{
     font-weight: 400;
     transform: translateY(5px);
 }
-/* #subsect1{
-    border: 1px solid;
-    
-}
-#subsect2{
-    border: 1px solid;
-} */
 .circle{
     height: 50px;
     width: 50px;
@@ -211,7 +203,7 @@ body{
 }
 #s2{
     width: 60%;
-    margin-left: 8%;
+    margin-left: 20%;
 }
 #s2-1{
     margin: auto;
